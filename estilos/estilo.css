@@ -1,0 +1,126 @@
+
+/*FALTA PONER TAMAÑO DE FOTOS*/
+ 
+ #general{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:auto;
+	
+.texto_noticias{
+	font-family:"Cambria";
+	color:#181BD7;
+	font-size:80%;
+	text-align:justify;
+}
+.titulo_noticias{
+	color:#189ED7;
+	font-family:"Cambria";
+	text-align:center;
+}
+.imagenes{
+	/*cambia en cada tamaño*/
+}	
+p.titulos_lateral{
+	font-family:"Cambria";
+	color:white;
+	font-weight:bold;
+	font-size:80%;
+	text-align:left;
+	margin-left:13px;
+	background-image:url("imagenes/header_barralat.png");
+	height:16px;
+}
+a.enlaces_lateral{
+	font-family:"Cambria";
+	font-size:10px;
+	margin-left:13px;
+	color:black;
+	text-decoration:normal;/*falta que no tenga subrayado*/
+}
+
+header{
+	display:flex;
+	width:100%;
+	height:10%;
+}
+footer{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	height:10%;
+	font-family:"Cambria";
+	font-weight:bold;
+	color:#189ED7;
+	font-size:80%;
+}
+
+/*CSS movil*/
+@media screen and (max-width: 767px){
+#general{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:auto;
+}
+img.banners{
+	width:175px;
+	height:60px
+}
+}
+
+
+
+
+/*CSS tablet*/
+@media screen and (min-width: 768px) and (max-width:1023){
+#general{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:auto;
+}
+img.banners{
+	width:117px;
+	height:40px
+}
+
+
+
+	
+}
+
+
+
+
+/*CSS ordenador*/
+@media screen and (min-width: 1024px){
+#general{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:auto;
+}
+
+aside{
+	display:flex;
+	width:30%;
+	flex-direction:column;
+}
+article{
+	display:flex;
+	width:70%;
+	flex-direction:column;
+	
+}
+
+img.banners{
+	width:175px;
+	height:60px
+}
+
+
+
+
+
+}
